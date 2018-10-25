@@ -1,3 +1,8 @@
+Hoang: if ./configure cannot find the libX11, then a workaround is to add specifier '-lX11' to generated Makefile:
+
+    LIBS= -lm -lX11 
+
+
 This is the README file for the program xplot.
 
 There seems to be a few other programs floating around the net by the
